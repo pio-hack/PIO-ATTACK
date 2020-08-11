@@ -112,9 +112,9 @@ def get_parameters():
 
 # reading MONSTER_hp
 global data
-SAEED_CYBER = open("SAEED_CYBER.txt", "r")
-data = SAEED_CYBER.read()
-SAEED_CYBER.close()
+Saeed_Cyberi = open("Saeed_Cyberi.txt", "r")
+data = Saeed_Cyberi.read()
+Saeed_Cyberi.close()
 #task queue are q,w
 q = Queue()
 w = Queue()
