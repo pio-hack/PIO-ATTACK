@@ -75,7 +75,7 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	                </> PIO-ATTACK </> 
+	print (''' \033[92m	               </> PIO-ATTACK </> 
 	    >>>>>> GitHub : https://github.com/PIO-HACK <<<<<<
 	>>>>>> Telegram chanell : https://T.me/PIO-HACK <<<<<< 
 	help : python PIO-ATTACK.py [-s] [-p] [-t]
@@ -117,7 +117,7 @@ def get_parameters():
 
 # reading MONSTER_hp
 global data
-MONSTER_hp = open("SAEED_CYBER.txt", "r")
+SEEAD_CYBER = open("SAEED_CYBER.txt", "r")
 data = SAEED_CYBER.read()
 SAEED_CYBER.close()
 #task queue are q,w
